@@ -16,7 +16,7 @@ const Title = React.createElement(
 	"Hello Edit!"
 );
 
-const mainContainer = React.createElement(
+const MainContainer = React.createElement(
 	"div",
 	{
 		class: "main-container",
@@ -32,4 +32,4 @@ const mainContainer = React.createElement(
 
 const root = document.getElementById("root");
 
-ReactDOM.createRoot(root).render(mainContainer);
+ReactDOM.createRoot(root).render(MainContainer);
